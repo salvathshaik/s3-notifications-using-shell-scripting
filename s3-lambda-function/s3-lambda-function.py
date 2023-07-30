@@ -11,10 +11,10 @@ def lambda_handler(event, context):
 
     # Example: Send a notification via SNS
     sns_client = boto3.client('sns')
-    topic_arn = 'arn:aws:sns:us-east-1:<account-id>:s3-lambda-sns'
+    topic_arn = 'arn:aws:sns:us-east-1:946753026670:s3-lambda-sns'
     sns_client.publish(
        TopicArn=topic_arn,
-       Subject='S3 Object Created',
+       Subject='Alert - S3 Object Created',
        Message=f"File '{object_key}' was uploaded to bucket '{bucket_name}'"
     )
 
