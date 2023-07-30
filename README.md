@@ -1,9 +1,9 @@
 # AWS S3 Event Triggering using lambda and SNS notification services
 
 First of all install the following tools in your linux/windows environment to work this code
-aws-cli
-zip
-jq 
+**aws-cli**,
+**zip**,
+**jq** 
 
 **NOTE**: REPLACE YOUR AWS ACCOUNT ID IN THE LAMBDA FUNCTION CODE.
 
