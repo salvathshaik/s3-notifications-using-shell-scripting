@@ -1,4 +1,4 @@
-# AWS S3 Event Triggering using lambda and SNS notification services
+# AWS S3 Event Triggering using lambda and SNS notification services in shell scripting
 
 First of all install the following tools in your linux/windows environment to work this code
 **aws-cli**,
@@ -17,5 +17,6 @@ Here are some examples of top companies that use S3 event triggering:
 
 **Expedia**: They use S3 event triggering to automatically process and analyze data stored in Amazon S3, such as travel bookings, user profiles, and pricing information, to power their personalized travel recommendations and search features.
 
+Thanks to Abhishek veeramulla for inspiring to do this project.
 
 ![Screenshot 2023-04-14 at 7 06 46 PM](https://user-images.githubusercontent.com/43399466/232058778-a7299e9b-9892-471c-a05d-14d773b5b333.png)
